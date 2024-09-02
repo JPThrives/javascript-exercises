@@ -14,8 +14,12 @@ const sum = function(sumOfNo) {
   return totalSum;
 };
 
-const multiply = function() {
-
+const multiply = function(mulNo) {
+  let totalMul = 1;
+  for(let i = 0; i < mulNo.length; i++) {
+    totalMul *= mulNo[i];
+  }
+  return totalMul;
 };
 
 const power = function() {
