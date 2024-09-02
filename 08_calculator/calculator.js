@@ -9,8 +9,8 @@ const subtract = function(num1,num2) {
 const sum = function(sumOfNo) {
   let totalSum = 0;
 	for(let i = 0; i < sumOfNo.length; i++) {
-    totalSumsum += sumOfNo[i];
-  };
+    totalSum += sumOfNo[i];
+  }
   return totalSum;
 };
 
